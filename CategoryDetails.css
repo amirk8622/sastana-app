@@ -1,0 +1,107 @@
+.category-details {
+    display: flex;
+    /* Enable flexbox for the category details */
+
+        flex-direction: column;
+            /* Stack items vertically */
+    align-items: flex-start;
+        /* Align items to the left */    /* Center items vertically */
+}
+
+.container {
+    display: flex;
+        /* Use flexbox for layout */
+    background-color: #ffffff;
+    /* White background for details */
+    flex-direction: column;
+        /* Stack items vertically by default */
+    /* Light border */    /* Rounded corners */
+    padding: 20px;
+    /* Padding */
+}
+
+.category-details h6 {
+margin-right: 15px;
+    /* Space between heading and wallet address */
+    margin-bottom: 0;
+    /* Remove bottom margin for alignment */
+}
+
+.category-details p {
+    margin: 0;
+        /* Remove margin to keep wallet address aligned with heading */    /* Add space above and below paragraphs */
+}
+
+
+.info-cards {
+    display: flex;
+    /* Use flexbox for card layout */
+    flex-direction: row;
+    /* Arrange items in a row */
+    flex-wrap: nowrap;
+    /* Prevent wrapping of items */
+    justify-content: flex-start;
+    /* Align items to the start */
+    width: 100%;
+    /* Ensure the div takes full width */
+    overflow-x: auto;
+    /* Enable horizontal scrolling if necessary */
+        min-height: 100px;
+            /* Ensuring all cards have the same height */
+}
+
+.info-card {
+    margin-top: 50px;
+    flex: 0 0 auto;
+    /* Prevent cards from growing too large */
+    max-width: 200px;
+    /* Set maximum width for cards */
+    min-width: 150px;
+    /* Minimum width for cards */
+    margin: 10px;
+    /* Space around cards */
+    background-color: #f8f9fa;
+    /* Card background */
+    padding: 15px;
+    /* Inner padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for better visibility */
+}
+
+.additional-info {
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.info-btn {
+    margin-right: 10px;
+    /* Space between buttons */
+}
+
+.wallet-info {
+    display: flex;
+    /* Use flexbox to align items in a row */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.wallet-info h6 {
+    margin-right: 15px;
+    /* Space between the heading and wallet address */
+    margin-bottom: 0;
+    /* Remove bottom margin for alignment */
+}
+
+.wallet-info p {
+    margin: 0;
+    /* Remove margin to keep wallet address aligned with heading */
+}
+
+.unlock-time {
+    margin-top: 20px;
+    /* Adjust the value as needed for desired spacing */
+}
